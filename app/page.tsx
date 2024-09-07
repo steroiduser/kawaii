@@ -1,101 +1,55 @@
-import Image from "next/image";
-
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+	return (
+		<div className='grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-5 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]'>
+			<main className='flex flex-col gap-5 row-start-2 items-center sm:items-start'>
+				<ol className='list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]'>
+					<p className='mb-2'>Dear Sejal, </p>
+					<p className='mb-2' style={{ textAlign: "justify" }}>
+						You started this website to bring your dream of starting a clothing
+						line to life. Very cute name btw. You got into cybersecurity after
+						this which led to the place you ended up in and that led to you
+						meeting me so I am happy you took up cybersecurity.
+						<br />
+						<br />
+						However, this website not only represents the clothing line but a
+						reminder for you to never forget your dreams. Maybe you will start a
+						clothing line again, maybe you won&apos;t. But whatever you end up
+						pursuing always remember that I will be there to support you no
+						matter what. You don&apos;t even have to use this domain name if you
+						choose to get back to fashion and the clothing line idea later.
+						<br />
+						<br />
+						Most people just dream and never do anything about it but you took
+						action. The result doesn&apos;t really matter. What matters is
+						having the courage to do something that most people consider insane
+						or not normal. I want to keep this domain and this website active
+						forever as a reminder that you are a really smart, strong woman who
+						can acheive whatever you set out to do.
+						<br />
+						<br />
+						You Sejal, are the most beautiful, smart, funny woman I have ever
+						come across. And I am very lucky to have you in my life. I
+						can&apos;t wait to spend the next 60-120 years with you depending on
+						how much medical science will advance. I am sure whatever you put
+						your mind to, you&apos;ll make it happen. And I will be there by
+						your side to support you and help you acheive all your dreams.
+						<br />
+						<br />
+						I want you to achieve all your dreams. And this is a reminder to
+						keep them alive.
+						<br />
+						<br />
+						<br />
+						<br />- You know who I am &lt;3
+						<br />
+						<br />
+						<br />
+						<br />
+						P.S.: I Love You.
+					</p>
+				</ol>
+			</main>
+		</div>
+	);
 }
+
